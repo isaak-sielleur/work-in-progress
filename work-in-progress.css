@@ -1,0 +1,61 @@
+body {
+	background-image: url(work-in-progressimg/fond2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 150%;
+	font-family: Gabriola;
+}
+
+section {
+	width: 300px;
+	margin-left: 520px;
+	margin-top: -20px;
+	color: white;
+	text-shadow: 2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, -2px 0 0 black, 2px 2px 0 black, 2px -2px 0 black, -2px 2px 0 black, -2px -2px 0 black;
+}
+
+
+p {
+	text-align: center;
+	font-size: 100%;
+	font-family: Georgia;
+	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+
+}
+
+.class{
+	outline:1px solid transparent;
+	transition:background-color 1s, transform 1s 1s;
+
+}
+
+.class:hover{
+	transform: rotate(3turn) scale(1);
+	font-variant: small-caps;
+}
+
+.image {
+	position: center;
+	margin-top: -20px;
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
+	animation-direction: right;
+	transform: translateX(450px);
+}
+
+.image2 {
+	margin-left: 580px;
+}
+
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+	}
+	to {
+		margin-left: 0%;
+	}
+}
